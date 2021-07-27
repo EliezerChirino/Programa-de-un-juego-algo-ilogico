@@ -31,17 +31,17 @@ namespace LosdadosdelaC4R4J1T4
 		
 			Console.WriteLine("Ingrese su apellido");
 			apellido= Console.ReadLine();
-			///Console.WriteLine("Ingrese su edad");
-			///cadena= Console.ReadLine();
-			///Convert.ToInt32(cadena);
-			///edad= Convert.ToInt32(cadena);
+			Console.WriteLine("Ingrese su edad");
+			cadena= Console.ReadLine();
+			Convert.ToInt32(cadena);
+			edad= Convert.ToInt32(cadena);
 			
-			///Console.WriteLine("Ingrese su numero de cédula");
-			///cadena= Console.ReadLine();
-			///cedula= Convert.ToInt32(cadena);
+			Console.WriteLine("Ingrese su numero de cédula");
+			cadena= Console.ReadLine();
+			cedula= Convert.ToInt32(cadena);
 			
-			///Console.WriteLine("Ingrese su Dirección");
-			///Direccion= Console.ReadLine();
+			Console.WriteLine("Ingrese su Dirección");
+			Direccion= Console.ReadLine();
 			
 			Console.WriteLine("Bienvenido "+ nombre + " "+ apellido + " Usted posee un saldo Inicial de 500.000,00 bs");
 			while (encender){
