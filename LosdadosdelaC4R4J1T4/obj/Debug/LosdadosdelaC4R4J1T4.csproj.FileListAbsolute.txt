@@ -1,0 +1,5 @@
+C:\Users\Virginia\Documents\SharpDevelop Projects\LosdadosdelaC4R4J1T4\LosdadosdelaC4R4J1T4\bin\Debug\LosdadosdelaC4R4J1T4.exe
+C:\Users\Virginia\Documents\SharpDevelop Projects\LosdadosdelaC4R4J1T4\LosdadosdelaC4R4J1T4\bin\Debug\LosdadosdelaC4R4J1T4.pdb
+C:\Users\Virginia\Documents\SharpDevelop Projects\LosdadosdelaC4R4J1T4\LosdadosdelaC4R4J1T4\obj\Debug\LosdadosdelaC4R4J1T4.csprojResolveAssemblyReference.cache
+C:\Users\Virginia\Documents\SharpDevelop Projects\LosdadosdelaC4R4J1T4\LosdadosdelaC4R4J1T4\obj\Debug\LosdadosdelaC4R4J1T4.exe
+C:\Users\Virginia\Documents\SharpDevelop Projects\LosdadosdelaC4R4J1T4\LosdadosdelaC4R4J1T4\obj\Debug\LosdadosdelaC4R4J1T4.pdb
