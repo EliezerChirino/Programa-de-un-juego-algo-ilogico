@@ -16,7 +16,7 @@ namespace LosdadosdelaC4R4J1T4
 		{
 			string cadena= ""; 
 			string apellido;
-			bool encender= true;  bool otro= true;
+			bool encender= true;  bool otro= true; bool final= true;
 			string nombre;
 			int edad;
 			int cedula;
@@ -52,13 +52,13 @@ namespace LosdadosdelaC4R4J1T4
 			
 				
 				if ((eleccion !='s' && eleccion != 'n')){
-					Console.WriteLine("Opcion no solicitada");
+					Console.WriteLine("Error. debes escribir s ó n");
 					
 				}
 				
 				if(eleccion== 'n'){
 						encender=false;
-						Console.WriteLine("El jugador "+ " "+apellido +" no jugo y se quedo con su saldo inicial de "+ saldotot);
+						Console.WriteLine("El jugador "+ " "+apellido +" no jugó y se quedo con su saldo inicial de "+ saldotot);
 					}
 				if (eleccion == 's'){
 				saldotot= saldotot-20000.00;
@@ -88,22 +88,30 @@ namespace LosdadosdelaC4R4J1T4
 				}
 				
 			
-			}
+			
 				if(saldotot<20000.00){
 					encender=false;
 				}
 				if (saldotot>=20000.00){
+					while(final){
 					Console.WriteLine("¿Desea seguir jugando?");
 				seguir=char.Parse(Console.ReadLine());
 				if (seguir== 's'){
+					final=false;
 					encender= true;
 				}
 				else if(seguir== 'n'){
 					saldotot=saldotot*1;
+					final= false;
 					encender=false;
 				}
+				if((seguir!='n' && seguir!= 's')){
+					Console.WriteLine("Error. debes ingresar s o n");
+					
 				}
-				
+				}
+				}
+				}
 			///while:
 			}
 			Console.WriteLine("El jugador "+ nombre + " "+ apellido+ ", edad"+ edad+ ", numero de cedula"+ cedula+ ", su dirección: "+ Direccion+  ", Obtuvo "+ saldotot);
